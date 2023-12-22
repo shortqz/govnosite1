@@ -1,0 +1,1141 @@
+*,*::after, *::before{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+
+/* Dark */
+
+color: #404149;
+}
+.q1{
+    height: 200px;
+    padding-top: 50px;
+}
+.container{
+    max-width: 1110px;
+    margin:0 auto;
+}
+.logo img{
+    border: 2px solid red
+}
+.q2{
+    border: 2px solid red;
+    padding: 20px;
+    background-color: #F7654A;
+}
+.q2 span{
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin-top: 5px;
+}
+.esyzis2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.heder{
+    background-image: url(../img/Rectangle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.esyzis05{
+font-family: 'Oswald', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 4em;
+line-height: 95px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+padding-top: 1px;
+margin: 0 auto;
+
+/* White */
+
+color: #FFFFFF;
+}
+.esyzis06{
+    font-family: 'Oswald', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 2em;
+line-height: 27px;
+text-align: center;
+text-transform: uppercase;
+padding-top: 45px;
+margin: 0 auto;
+
+/* White */
+
+color: #FFFFFF;
+}
+
+.esyzis08{
+    background-color: rgb(255, 255, 255);
+    padding: 57px 130px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0 30px;
+    transform: translate(0, -125px);
+}
+
+.esyzis07 h2 span{
+    display: block;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107px;
+    text-align: center;
+    text-transform: uppercase;
+
+/* Accent */
+
+    color: blue;
+;
+}
+.esyzis07 h2{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.esyzis07 p {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.125em;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+.esyzis-11 img {
+    max-width: 100%;
+}
+
+.grid_cont {
+    padding: 1px 1px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0 0px;
+    transform: translate(0, 0px);
+}
+.esyzis13 h2 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.esyzis15 h2 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.2em;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #404149;
+}
+
+.esyzis13 p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: start;
+    color: #000;
+}
+
+.esyzis16 {
+    margin-top: 12px;
+    margin-bottom: 0px;
+    width: 41px;
+    height: 6px;
+    background-color: red;
+}
+
+.esyzis17{
+    margin-top: 100px;
+    background: #F7654A;
+    margin-bottom: 122px;
+    padding: 20px 20px;
+}
+
+.esyziscontainer{
+    align-self: center;
+}
+
+.esyzis18{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.esyzistext19{
+    text-align: left;
+    max-width: 711px;
+    align-items: center;
+}
+
+.flex-container {
+    font-weight: 700;
+    font-size: 2.7em;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.flex-container_element-1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #fff;
+    text-transform: lowercase;
+}
+
+.flex-container_element-2{
+    align-self: center;
+}
+
+.esyzis20{
+    padding: 14px 30px;
+    border: 0;
+}
+
+.esyzis_25 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px 15px;
+}
+
+.esyzis25{
+    background-color:  #F7F7F7;
+}
+
+.esyzis30{
+    width: 100%;
+}
+
+.esyzis31{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: repeat(4, 2fr);
+    padding-top: 50px;
+}
+
+.esyzis31 img{
+    width: 100%;
+}
+
+.esyzis32{
+    display: grid;
+    justify-content: center;
+}
+
+.esyzis33{
+    margin-top: 150px;
+    text-align: start;
+}
+
+.esyzis33 > .title {
+    text-align: end;
+    color: #000000;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.esyzis36{
+padding-bottom: 40px;
+width: 420.91px;
+height: 29px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 36px;
+
+/* Accent */
+
+color: #F7654A;
+}
+
+.esyzis33 > div{
+    display: flex;
+    align-items: center;
+}
+
+
+.esyzis33 > div > .esyzis34 {
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.esyzis33 > div:nth-child(3) > :first-child {
+    transform: rotate(29deg);
+}
+
+.esyzis35 > p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #999999;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.esyzis37{
+    height: 364px;
+    margin-top: 150px;
+    background: #404149;
+}
+
+.esyzis37 > h1 {
+    padding-top: 100px;
+    margin-bottom: 38px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+
+    /* White */
+    color: #FFFFFF;
+}
+
+.esyzis39{
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+.esyzis39 > h1{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.esyzis39 > div{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.esyzis39 > div > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 259px;
+
+    background: #F7F7F7;
+}
+
+.esyzis39 > div > div > div {
+    text-align: start;
+    width: 290px;
+}
+
+.esyzis39 > div > div > div > p{
+    font-family: 'Open Sans';
+    margin-bottom: 1px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: start;
+    /* or 150% */
+
+    /* gray */
+    color: #999999;
+}
+
+.esyzis40{
+    display: grid;
+    justify-content: center;
+    height: 181px;
+    width: 100%;
+    background: #F7654A;
+}
+
+.esyzis42 > h1{
+    padding-top: 30px;
+    width: 586px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.esyzis42 > h2{
+    text-align: start;
+    width: 562px;
+    height: 29px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.esyzis41{
+    display: grid;
+    align-items: flex-end;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+
+.esyzis43{
+    width: 175px;
+    height: 49px;
+    display: flex;
+    margin-bottom: 15px;
+    background: #FFFFFF;
+}
+
+.esyzis43 > p{
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+.esyzis43{
+    margin-left: 270px;
+}
+
+.info > h2{
+    position: absolute;
+    width: 159px;
+    height: 53px;
+    left: 680px;
+    top: 4300px;
+    
+    /* h2 */
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.contact {
+    margin-bottom: 150px;
+}
+
+.esyzis46{
+    font-weight: 500;
+    font-size: 2.25em;
+    line-height: 53px;
+    margin-bottom: 60px;
+}
+
+.esyzis47{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.esyzis48 img{
+    margin-bottom: 25px;
+    align-items: baseline;
+}
+
+.esyzis50{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #999999;
+    margin-bottom: 25px;
+}
+
+.esyzis51{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.esyzis51 span{
+    color: #F7654A;
+}
+
+.email {
+    padding-bottom: 12px;
+}
+
+.esyzis52{
+        background-color: #404149;
+}
+
+.esyzis53{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.esyzis54{
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.esyzis55{
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .reg {
+        display: block;
+        color: blue;
+    }
+    .reg p {
+        color: blue;
+    }
+    } 
+    @media all and (min-width: 768px) and (max-width: 1024px) { 
+        .esyzis39 > div > div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height: 280px;
+        background: #F7F7F7;
+    }
+        .esyzis43 {
+            margin-left: 20px;
+        }
+        
+        .esyzis43 {
+            width: 158px;
+            height: 50px;
+            display: flex;
+            margin-bottom: 15px;
+            background: #FFFFFF;
+        }
+        .esyzis20 {
+            padding: 14px 266px;
+            border: 0;
+        }
+        .flex-container_element-1 {
+            font-weight: 700;
+            font-size: 21px;
+            line-height: 40px;
+            letter-spacing: 0.02em;
+            color: #fff;
+            text-transform: lowercase;
+        }
+        .esyzis-11 img {
+            max-width: 80%;
+        }
+        .esyzis13 p {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 21px;
+            line-height: 25px;
+            text-align: start;
+            color: #000;
+        }
+
+    } 
+    @media all and (min-width: 480px) and (max-width: 768px) { 
+        .flex-container {
+            font-weight: 700;
+            font-size: 1.7em;
+            line-height: 60px;
+            letter-spacing: 0.02em;
+            color: #fff;
+        }
+        .flex-container_element-1 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: 0.125em;
+            color: #fff;
+            text-transform: lowercase;
+        }
+        .flex-container_element-1 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: 0.125em;
+            color: #fff;
+            text-transform: lowercase;
+        }
+        .grid_cont{
+        flex-direction: column;
+        justify-content: center;
+        }
+        .esyzis13 h2 {
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 29px;
+            line-height: 65px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #000000;
+        }
+        .esyzis20 {
+            padding: 2px 122px;
+            border: 0;
+        }
+        .esyzis37 {
+            height: 425px;
+            margin-top: 150px;
+            background: #404149;
+        }
+        .esyzis39 > div > div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 255px;
+                height: 259px;
+                background: #F7F7F7;
+            }
+        .esyzis39 > div > div > div > p {
+            font-family: 'Open Sans';
+            margin-bottom: 1px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            text-align: start;
+            color: #999999;
+        }
+        .esyzis39 > div {
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            justify-items: center;
+        }
+        .esyzis41 {
+            display: grid;
+            align-items: flex-end;
+            grid-template-columns: repeat(1, 1fr);
+            justify-content: space-between;
+        }
+        .esyzis42 > h1 {
+            padding-top: 10px;
+            width: 586px;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 82px;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+        }
+        .esyzis40 {
+            display: grid;
+            justify-content: center;
+            height: 188px;
+            width: 100%;
+            background: #F7654A;
+        }
+        .esyzis42 > h2 {
+            width: 522px;
+            text-align: unset;
+            height: 30px;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: 0.01em;
+            color: #FFFFFF;
+        }
+        .esyzis47 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 100%;
+        }
+        .esyzis08 {
+            background-color: rgb(255, 255, 255);
+            padding: 57px 9px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 0 14px;
+            transform: translate(0, -125px);
+        }
+        .esyzis07 p {
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 2.125em;
+            line-height: 30px;
+            text-align: center;
+            color: #000000;
+        }
+    } 
+    @media all and (max-width: 480px) {
+        .flex-container {
+            font-weight: 700;
+            font-size: 1.7em;
+            line-height: 60px;
+            letter-spacing: 0.02em;
+            color: #fff;
+        }
+        .flex-container_element-1 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: 0.125em;
+            color: #fff;
+            text-transform: lowercase;
+        }
+        .flex-container_element-1 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: 0.125em;
+            color: #fff;
+            text-transform: lowercase;
+        }
+        .grid_cont{
+        flex-direction: column;
+        justify-content: center;
+        }
+        .esyzis13 h2 {
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 29px;
+            line-height: 65px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #000000;
+        }
+        .esyzis20 {
+            padding: 2px 122px;
+            border: 0;
+        }
+        .esyzis37 {
+            height: 425px;
+            margin-top: 150px;
+            background: #404149;
+        }
+        .esyzis39 > div > div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 255px;
+                height: 259px;
+                background: #F7F7F7;
+            }
+        .esyzis39 > div > div > div > p {
+            font-family: 'Open Sans';
+            margin-bottom: 1px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            text-align: start;
+            color: #999999;
+        }
+        .esyzis39 > div {
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            justify-items: center;
+        }
+        .esyzis41 {
+            display: grid;
+            align-items: flex-end;
+            grid-template-columns: repeat(1, 1fr);
+            justify-content: space-between;
+        }
+        .esyzis42 > h1 {
+            padding-top: 10px;
+            width: 586px;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 82px;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+        }
+        .esyzis40 {
+            display: grid;
+            justify-content: center;
+            height: 188px;
+            width: 100%;
+            background: #F7654A;
+        }
+        .esyzis42 > h2 {
+            width: 522px;
+            text-align: unset;
+            height: 30px;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: 0.01em;
+            color: #FFFFFF;
+        }
+        .esyzis47 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 100%;
+        }
+        .esyzis08 {
+            background-color: rgb(255, 255, 255);
+            padding: 57px 9px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 0 14px;
+            transform: translate(0, -125px);
+        }
+        .esyzis07 p {
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 2.125em;
+            line-height: 30px;
+            text-align: center;
+            color: #000000;
+        }
+    }
+    @media all and (min-width: 320px) and (max-width: 480px) { 
+        .esyzis37 > h1 {
+            margin-bottom: 38px;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 53px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        .esyzis05 {
+            font-family: 'Oswald', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 2em;
+            line-height: 43px;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            padding-top: 1px;
+            margin: 0 auto;
+            color: #FFFFFF;
+        }
+        .esyzis08 {
+            background-color: rgb(255, 255, 255);
+            padding: 57px 4px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 0 30px;
+            transform: translate(0, -50px);
+        }
+        .esyzis13 h2 {
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 28px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #000000;
+        }
+        .esyzis13 p {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 25px;
+            text-align: start;
+            color: #000;
+        }
+        .esyzis20 {
+            padding: 0px 90px;
+            border: 0;
+        }
+        .esyzis32 {
+            display: grid;
+            justify-content: center;
+            padding-right: 200px;
+            margin-left: 230px;
+        }
+        .esyzis33 {
+            margin-top: 150px;
+            text-align: start;
+        }
+        .esyzis36 {
+            padding-bottom: 36px;
+            width: 427.91px;
+            height: 0px;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 31px;
+            color: #F7654A;
+        }
+        .esyzis33 > .title {
+            text-align: end;
+            color: #000000;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 47px;
+            text-transform: uppercase;
+            text-align: center;
+            width: 50%;
+        }
+        .esyzis35 > p {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            color: #999999;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 17px;
+            width: 62%;
+        }
+        .esyzis37 {
+            height: 500px;
+            margin-top: 80px;
+            background: #404149;
+        }
+        .esyzis37 > h1 {
+            margin-bottom: 38px;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 0px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        .esyzis42 > h1 {
+            padding-top: 10px;
+            width: 586px;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 27px;
+            line-height: 82px;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+        }
+        .esyzis42 > h2 {
+            width: 522px;
+            text-align: unset;
+            height: 30px;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 30px;
+            letter-spacing: 0.01em;
+            color: #FFFFFF;
+        }
+        .esyzis13 h2 {
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 65px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #000000;
+        }
+}
+@media all and (min-width: 240px) and (max-width: 320px) { 
+    .grid_cont {
+        flex-direction: column;
+    }
+    .esyzis13 h2 {
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 29px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .esyzis08 {
+        background-color: rgb(255, 255, 255);
+        padding: 57px 9px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0 9px;
+        transform: translate(0, 0px);
+    }
+    .esyzis06 {
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5em;
+        line-height: 27px;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 45px;
+        margin: 0 auto;
+        color: #FFFFFF;
+    }
+    .esyzis05 {
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2em;
+        line-height: 64px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        padding-top: 1px;
+        margin: 0 auto;
+        color: #FFFFFF;
+    }
+    .esyzis13 p {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 27px;
+        text-align: start;
+        color: #000;
+    }
+    .esyzis20 {
+        padding: 0px 50px;
+        border: 0;
+    }
+    .esyzis_25 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0px 0px;
+    }
+    .esyzis33 > .title {
+        color: #000000;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 55px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .esyzis36 {
+        padding-bottom: 38px;
+        width: 203.91px;
+        height: 32px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 26px;
+        color: #F7654A;
+    }
+    .esyzis37 > h1 {
+        padding-top: 20px;
+        margin-bottom: 9px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .esyzis37 {
+        height: 485px;
+        margin-top: 150px;
+        background: #404149;
+    }
+    .esyzis39 > div > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 237px;
+        height: 345px;
+        background: #F7F7F7;
+    }
+    .esyzis39 > div > div > div > p {
+        font-family: 'Open Sans';
+        margin-bottom: 1px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: start;
+        color: #999999;
+    }
+    .esyzis42 > h2 {
+        width: 576px;
+        text-align: unset;
+        height: 30px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 0px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+    }
+    .esyzis42 > h1 {
+        padding-top: 10px;
+        width: 586px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 82px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+}
